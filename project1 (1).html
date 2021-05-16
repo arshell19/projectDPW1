@@ -1,7 +1,8 @@
 <DOCTYPE html>
-<html>
-<head>
-	<script>
+  <html>
+    <head>
+      <title>TEGAR</title>
+      <script>
         // script project
         function klik() {
           var a = document.getElementById("a").value;
@@ -46,60 +47,11 @@
           var hasilmedian = (hasil[median - 1] + hasil[median]) / 2;
           document.getElementById("tengah").innerHTML = hasilmedian;
         }
-      	</script>
-	<title>Github</title>
-	
-</head>
-	<style>
-        a{
-            text-decoration: none; 
-            font-size: 20px;
-            font-family: sans-serif;
-            padding: 14px 10px}
-        ul{
-            padding: 14px
-        }
-        li{
-            list-style: none; 
-            display: inline;
-        }
-        li a{
-            background: black; 
-            color:white;
-        }
-        li a:hover{
-            background: white; 
-            color:black;
-        }
-        .navi{
-            background: black; 
-            height: 50px;
-        }
-        body{
-            text-align: center;
-            background-image: url("baground.jpg");
-            padding: auto;
-        }
-        img{
-            width: 650px;
-            height: 450px;
-            padding: 20px;
-        }
-    </style>
+      </script>
+    </head>
 
-<body>
-    <nav class="navi">
-    <ul>
-        <li><a href="project.html">Home</a></li>
-        <li><a href="project2.html">Team</a></li>
-        <li><a href="project3.html">Definition</a></li>
-        <li><a href="project1.html">Project</a></li>
-    </ul>
-    </nav>
-    <img src="gedung.jpg"><br>
-    <h1>DASAR PEMROGRAMAN WEB<h1>
-	    
-	<h1>PROJECT</h1>
+    <body>
+        <h1>PROJECT</h1>
         <div>
           <p class="input">Angka Minimal</p>
           <input type="number" id="a" /> <br />
@@ -120,5 +72,5 @@
           Nilai Modus : <br />
           <textarea name="result" id="modus" cols="30" rows="1"></textarea> <br />
         </div>
-</body>
+    </body>
 </html>
