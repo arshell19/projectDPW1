@@ -2,6 +2,18 @@
 <html>
 <head>
 	<script>
+		function f_ghufron() {
+			document.getElementById("ghufron").innerHTML="Nama : M. Ali Gufron<br> NIM : 200411100003"
+		}
+		function f_aulya() {
+			document.getElementById("aulya").innerHTML="Nama : Aulya' Miftahkhul Hikmah<br> NIM : 200411100050"
+		}
+		function f_arshelia() {
+			document.getElementById("arshelia").innerHTML="Nama : Arshelia Romadhona<br> NIM : 200411100053"		
+		}
+		function f_tegar() {
+			document.getElementById("tegar").innerHTML="Nama : Tegar Fakhruddin<br> NIM : 200411100124"
+		}
         // script project
         function klik() {
           var a = document.getElementById("a").value;
@@ -81,6 +93,7 @@
             padding: auto;
         }
         img{
+	    text-align: center;
             width: 650px;
             height: 450px;
             padding: 20px;
@@ -106,6 +119,29 @@
     <img src="gedung.jpg"><br>
     <h1>DASAR PEMROGRAMAN WEB<h1>
 	<br><br><br><br><br><br>
+	    <center>
+        <h1 style="font-family: 'Times New Roman', Times, serif;">TEAM</h1>
+        <button type="button"
+        onclick="f_ghufron()">
+            <img src="ghufron.jpeg"><p id="ghufron"></p>
+        </button>
+    
+        <button type="button"
+        onclick="f_aulya()">
+            <img src="aulya.jpeg"><p id="aulya"></p>
+        </button>
+
+        <button type="button"
+        onclick="f_arshelia()">
+            <img src="arshelia.jpeg"><p id="arshelia"></p>
+        </button>
+
+        <button type="button"
+        onclick="f_tegar()">
+            <img src="tegar.jpeg"><p id="tegar"></p>
+        </button>
+	</center>
+	    <br><br><br><br><br><br>
 	<h1>DEFINITION</h1>
         <h4 style="text-align: left;">1. MEAN/Rata-Rata</h4>
         <p>Mean dapat diartikan sebagai nilai rata-rata suatu kelompok data.</p>
